@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jacopo Essenziale",
-  "license": "ISC",
+  "license": "(GPL-2.0)",
+  "repository": "https://github.com/elrod/node.weather.memobird",
   "dependencies": {
     "gm": "^1.23.1",
     "memobird": "0.0.6",
