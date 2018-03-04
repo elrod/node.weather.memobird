@@ -1,0 +1,19 @@
+{
+  "name": "node.weather.memobird",
+  "version": "0.0.1",
+  "description": "A weather application that fetches current weather info from openWeather and prints it to a memobird printer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacopo Essenziale",
+  "license": "ISC",
+  "dependencies": {
+    "gm": "^1.23.1",
+    "memobird": "0.0.6",
+    "node-cron": "^1.2.1",
+    "openweather-node": "0.0.4",
+    "png-to-jpeg": "^1.0.1",
+    "request": "^2.83.0"
+  }
+}
