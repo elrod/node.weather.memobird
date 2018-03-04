@@ -2,11 +2,11 @@
 * @Author: Jacopo Essenziale
 * @Date:   2018-03-04 12:02:30
 * @Last Modified by:   jesse
-* @Last Modified time: 2018-03-04 17:06:32
+* @Last Modified time: 2018-03-04 20:30:09
 */
 
-const weather 	= require("Openweather-Node")
-const Memobird 	= require('Memobird');
+const weather 	= require("openweather-node")
+const Memobird 	= require('memobird');
 const request 	= require('request').defaults({ encoding: null });
 const pngToJpeg = require('png-to-jpeg');
 const cron 		= require('node-cron');
